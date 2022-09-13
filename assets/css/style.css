@@ -192,7 +192,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #f8f8f8;
+  color: #000000;
 }
 
 .navbar .getstarted,
@@ -201,12 +201,12 @@ h6 {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #000000;
 }
 
@@ -221,7 +221,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: rgb(0, 0, 0);
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
 }
 
